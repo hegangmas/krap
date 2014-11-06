@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1353877546 source:/home/uros/Projects/histogram_emulator/main.cpp
+	<random>
+	<thread>
+	<thread>
+	<iostream>
+	<vector>
+

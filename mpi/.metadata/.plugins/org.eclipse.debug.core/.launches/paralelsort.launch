@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ptp.launch.parallelLaunch">
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.ptp.launch.ARGUMENT_ATTR" value=""/>
+<booleanAttribute key="org.eclipse.ptp.launch.ATTR_CONSOLE" value="true"/>
+<booleanAttribute key="org.eclipse.ptp.launch.ATTR_COPY_EXECUTABLE_FROM_LOCAL" value="false"/>
+<stringAttribute key="org.eclipse.ptp.launch.ATTR_DEBUGGER_HOST" value="linux-4qmr"/>
+<stringAttribute key="org.eclipse.ptp.launch.ATTR_REMOTE_EXECUTABLE_PATH" value="/home/uros/mpi/paralelsort/Debug/paralelsort"/>
+<booleanAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_AFTER" value="false"/>
+<booleanAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_BEFORE" value="false"/>
+<listAttribute key="org.eclipse.ptp.launch.ATTR_SYNC_RULES"/>
+<stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_EXECUTABLE_PATH" value="/home/uros/bin/eclipse/plugins/org.eclipse.ptp.linux.x86_3.0.1.201002011019/bin/sdm"/>
+<stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_ID" value="org.eclipse.ptp.debug.sdm"/>
+<stringAttribute key="org.eclipse.ptp.launch.DEBUGGER_START_MODE" value="run"/>
+<stringAttribute key="org.eclipse.ptp.launch.PROJECT_ATTR" value="paralelsort"/>
+<stringAttribute key="org.eclipse.ptp.launch.RESOURCE_MANAGER_NAME" value="22ba887c-ca8d-4099-9675-72539a8a19e0"/>
+<booleanAttribute key="org.eclipse.ptp.launch.STOP_IN_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.arguments" value="-np 2 -byslot -hostfile &quot;/home/uros/mpi/hostfile&quot;"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.byNode" value="false"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.bySlot" value="true"/>
+<stringAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.hostFile" value="/home/uros/mpi/hostfile"/>
+<stringAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.hostList" value="linux-4qmr&#10;linux-31zw"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.noLocal" value="false"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.noOversubscribe" value="false"/>
+<intAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.numProcs" value="2"/>
+<mapAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.parameters"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.useDefaultArguments" value="true"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.useDefaultParameters" value="true"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.useHostFile" value="true"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.useHostList" value="false"/>
+<booleanAttribute key="org.eclipse.ptp.rm.mpi.openmpi.ui.launchAttributes.usePrefix" value="false"/>
+</launchConfiguration>

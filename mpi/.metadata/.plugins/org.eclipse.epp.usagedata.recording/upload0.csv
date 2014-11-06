@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ptp.remote.core,3.0.0.201002011019,"org.eclipse.ptp.remote.core",1270678011849
+started,bundle,org.eclipse.ptp.rm.core,1.0.1.201002011019,"org.eclipse.ptp.rm.core",1270678011851
+started,bundle,org.eclipse.ptp.rm.mpi.openmpi.core,2.0.0.201002011019,"org.eclipse.ptp.rm.mpi.openmpi.core",1270678011924
+started,bundle,org.eclipse.ptp.rm.mpi.openmpi.ui,1.0.1.201002011019,"org.eclipse.ptp.rm.mpi.openmpi.ui",1270678011924
+started,bundle,org.eclipse.ptp.services.core,1.0.0.201002011019,"org.eclipse.ptp.services.core",1270678011925
+started,bundle,org.eclipse.ptp.ui,3.0.0.201002011019,"org.eclipse.ptp.ui",1270678012003
+started,bundle,org.eclipse.ptp.utils.core,1.0.0.201002011019,"org.eclipse.ptp.utils.core",1270678012004
+started,bundle,org.eclipse.ptp.utils.ui,1.0.0.201002011019,"org.eclipse.ptp.utils.ui",1270678012004
+os,sysinfo,,,"linux",1270678012008
+arch,sysinfo,,,"x86",1270678012008
+ws,sysinfo,,,"gtk",1270678012008
+locale,sysinfo,,,"sl_SI",1270678012009
+processors,sysinfo,,,"2",1270678012009
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1270678012009
+java.runtime.version,sysinfo,,,"1.6.0_0-b16",1270678012009
+java.specification.name,sysinfo,,,"Java Platform API Specification",1270678012009
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1270678012009
+java.specification.version,sysinfo,,,"1.6",1270678012009
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1270678012009
+java.version,sysinfo,,,"1.6.0_0",1270678012009
+java.vm.info,sysinfo,,,"mixed mode",1270678012009
+java.vm.name,sysinfo,,,"OpenJDK Client VM",1270678012009
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1270678012009
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1270678012009
+java.vm.specification.version,sysinfo,,,"1.0",1270678012009

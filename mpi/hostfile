@@ -1,0 +1,10 @@
+#localhost slots=2 max-slots=2
+#mini slots=2 max-slots=2
+#big slots=2 max-slots=2
+linux-4qmr slots=4
+linux-31zw slots=2
+#linux-4qmr slots=2 max-slots=2
+#linux-31zw slots=2 max-slots=2
+#localhost slots=2 max-slots=2
+#192.168.1.20 slots=1 max-slots=1
+#192.168.1.10:2222 slots=2 max-slots=2

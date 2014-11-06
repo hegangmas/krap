@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service-model>
+<service-configuration id="da127a14-5648-453b-b3d3-b804f402cc8f" name="Open_MPI@Local">
+<service id="org.eclipse.ptp.core.LaunchService" provider-id="org.eclipse.ptp.rm.mpi.openmpi.OpenMPIServiceProvider">
+<provider-configuration autoStart="true" commandsEnabled="false" connectionName="Local" debugCmd="" description="Open MPI Resource Manager" discoverCmd="ompi_info -a --parseable" launchCmd="" localAddress="mini" name="Open_MPI@Local" options="0" remoteInstallPath="" remoteServicesID="org.eclipse.ptp.remote.LocalServices" uniqName="22ba887c-ca8d-4099-9675-72539a8a19e0" useInstallDefaults="true" useToolDefaults="true" versionId="auto"/>
+</service>
+</service-configuration>
+</service-model>

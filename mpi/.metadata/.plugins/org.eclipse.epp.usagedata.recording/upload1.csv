@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.name,sysinfo,,,"OpenJDK Client VM",1268223819025
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1268223819025
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1268223819025
+java.vm.specification.version,sysinfo,,,"1.0",1268223819025
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1268223819025
+java.vm.version,sysinfo,,,"14.0-b16",1268223819025
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1268223819122
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1268223819343
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1268223819411
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1268223819551
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1268223819587
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1268223819839
+started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1268223819975
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1268223819981
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1268223820155
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1268223820223
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1268223820241
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1268223821064
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1268223821093
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1268223821286
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1268223822015
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1268224086538
+started,bundle,org.eclipse.ptp.pldt.common,3.0.0.201002011019,"org.eclipse.ptp.pldt.common",1268224168972
+started,bundle,org.eclipse.ptp.pldt.mpi.core,3.0.0.201002011019,"org.eclipse.ptp.pldt.mpi.core",1268224168985
+started,bundle,org.eclipse.ptp.pldt.openmp.core,3.0.0.201002011019,"org.eclipse.ptp.pldt.openmp.core",1268224169079

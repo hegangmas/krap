@@ -1,0 +1,26 @@
+_OpenUSART: CODE, 5574 0 92
+_initSpi: CODE, 6290 0 6
+_delay: CODE, 6074 0 48
+_OpenSPI: CODE, 5754 0 78
+__stringdata: SMALLCONST, 3328 0 2
+___ftpack: CODE, 5426 0 148
+_main: CODE, 3332 0 2692
+_askAtaForAllData: CODE, 5266 0 160
+___ftadd: CODE, 3874 0 376
+__initialization: CODE, 5832 0 60
+_rearangeBatteryData: CODE, 6278 0 12
+_putsUSART: CODE, 6168 0 38
+_FindMax: CODE, 4532 0 262
+_voltageCalculation: CODE, 4250 0 282
+_sendAtaData: CODE, 5906 0 64
+_WriteUSART: CODE, 6230 0 20
+_initPWM: CODE, 6250 0 14
+___ftmul: CODE, 4794 0 250
+_initApp: CODE, 6024 0 50
+___awtoft: CODE, 5970 0 54
+_WriteSPI: CODE, 6206 0 24
+_ReadSPI: CODE, 6264 0 14
+___ftsub: CODE, 6122 0 46
+___ftge: CODE, 5666 0 88
+___ftdiv: CODE, 5044 0 222
+Total: 5102
