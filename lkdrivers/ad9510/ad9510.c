@@ -2,8 +2,6 @@
  * AD9510 1.2 GHz Clock Distribution IC
  * PLL Core, Dividers, Delay Adjust, Eight Outputs
  *
- * Copyright 2013 Instrumentation technologies d.d.
- *
  * Licensed under the GPL-2 or later.
  *
  */
@@ -495,6 +493,6 @@ static __exit void ad9510_exit(void)
 }
 module_exit( ad9510_exit);
 
-MODULE_AUTHOR("Uros Golob <uros.golob@i-tech.si>");
+MODULE_AUTHOR("Uros Golob <uros@golob.mobi>");
 MODULE_DESCRIPTION("ad9510" "1.2 GHz Clock Distribution IC");
 MODULE_LICENSE("GPL v2");
