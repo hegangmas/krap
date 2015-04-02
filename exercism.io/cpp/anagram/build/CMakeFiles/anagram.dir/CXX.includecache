@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uros/Dokumenti/exercism.io/cpp/anagram/anagram.h
+map
+-
+string
+-
+algorithm
+-
+cctype
+-
+iterator
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+stdexcept
+-
+exception
+-
+
+/home/uros/Dokumenti/exercism.io/cpp/anagram/anagram_test.cpp
+anagram.h
+/home/uros/Dokumenti/exercism.io/cpp/anagram/anagram.h
+boost/test/unit_test.hpp
+-
+

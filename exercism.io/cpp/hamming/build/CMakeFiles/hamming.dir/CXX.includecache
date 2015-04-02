@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uros/Dokumenti/exercism.io/cpp/hamming/hamming.h
+map
+-
+string
+-
+algorithm
+-
+cctype
+-
+iterator
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+stdexcept
+-
+exception
+-
+
+/home/uros/Dokumenti/exercism.io/cpp/hamming/hamming_test.cpp
+hamming.h
+/home/uros/Dokumenti/exercism.io/cpp/hamming/hamming.h
+stdexcept
+-
+boost/test/unit_test.hpp
+-
+

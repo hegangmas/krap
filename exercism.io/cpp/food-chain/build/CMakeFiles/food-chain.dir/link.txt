@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/food-chain.dir/food_chain_test.cpp.o  -o food-chain -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

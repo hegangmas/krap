@@ -1,0 +1,1 @@
+/home/uros/Dokumenti/exercism.io/cpp/word-count/build/CMakeFiles/word-count.dir

@@ -1,0 +1,60 @@
+This is an example program that displays amusing animations on an
+Adafruit LED Backpack 8x8 matrix connected to an AVR microprocessor with USI
+(such as the ATTiny85 on the Adafruit trinket).
+
+This is free software. See COPYING for details.
+
+For additional information, see:
+   http://mythopoeic.org/adafruit-trinket-i2c
+
+My hope is that this will provide a useful starting point for people
+who are developing relatively complex applications on AVR processors
+with USI but no native I2C, and who need to shave every possible byte.
+
+The example is designed to duplicate the results of the "Trinket / Gemma
+Space Invader Pendant" project, which see:
+
+http://learn.adafruit.com/trinket-slash-gemma-space-invader-pendant/overview
+
+The chief differences between my example and the orginal are:
+
+o- It's all C. No C++, no assembly code.
+
+o- It's written for the GCC toolchain, not the Arduino IDE.
+
+o- The I2C communication is done using uWireM instead of TinyWireM.
+   (The former is my own set of very simple macros, directly on top
+   of the original Atmel USI_TWI_Master reference code.)
+
+o- Driving the LED matrix is done with the matrix8x8 library rather
+   than the Adafruit LED Backpack and Adafruit GFX libraries. (The matrix8x8
+   library is my own work. It is far less capable than the Adafruit
+   libraries, but it is also a *lot* smaller.)
+
+o- The application is substantially smaller. This might be interesting
+   to folks who are having trouble fitting their own custom animations
+   on the Trinket or Gemma using the original.
+
+Some specific ways I saved space:
+
+o- As mentioned above, I'm using thinner libraries that provide only
+   the functionality I need (and which do so in a space-conscious way).
+
+o- Rather than repeating image bitmaps to repeat animation frames, I
+   divided the animation into image bitmaps and an external step list
+   which references the images. Repeats cost 1 byte per frame, not 8.
+   The step list also provides a way to specify the inter-frame delay
+   only when it changes, instead of after every frame.
+
+o- Instead of using a lookup table to map natural-order image bytes
+   to the weird bit order used by the controller, I do the re-ordering
+   using bit-slicing operations in a function. This is a few cycles
+   slower but hundreds of bytes smaller.
+
+o- I use preprocessor macros rather than functions wherever possible.
+
+o- I use the EMPTY_INTERRUPT() macro instead of an ISR() with an empty
+   function body. This saves 18 bytes all by itself.
+
+o- In make.vars (included by the various Makefiles), I'm using compiler
+   and linker options chosen carefully to optimize for size.

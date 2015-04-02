@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uros/Dokumenti/exercism.io/cpp/word-count/word_count.h
+map
+-
+string
+-
+algorithm
+-
+cctype
+-
+iterator
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+
+/home/uros/Dokumenti/exercism.io/cpp/word-count/word_count_test.cpp
+word_count.h
+/home/uros/Dokumenti/exercism.io/cpp/word-count/word_count.h
+boost/test/unit_test.hpp
+-
+map
+-
+

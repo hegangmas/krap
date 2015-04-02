@@ -1,10 +1,4 @@
-#include <TinyWireM.h>
 #include <TEA5767Tiny.h>
-//#include <Button.h>
-#include <EEPROM.h>
-//#include <Led.h>
-
-
 
 TEA5767Tiny Radio;
 double stored_frequency;
@@ -19,39 +13,15 @@ int btn_forward = 3;
 int b=0;
 int f=0;
 
-
-
 boolean state = false;
-
-double load_frequency() {
-  int a = EEPROM.read(0);
-  int b = EEPROM.read(1);
-  if (a > 0) {
-    return a + ((float) b/100);
-  }
-  return 0;
-}
-void store_frequency(double f) {
-  int a = (int) f;
-  int b = (f - a) * 100;
-  EEPROM.write(0, a);
-  EEPROM.write(1, b); 
-}
-
 void setup() {
   
 pinMode(ledPin, OUTPUT);  
 pinMode(btn_backward, INPUT);  
 pinMode(btn_forward, INPUT);   
  
-  Radio.init();
-  //stored_frequency = load_frequency();
-  if (stored_frequency >= 88.5 && stored_frequency <= 108.00) {
-    Radio.set_frequency(stored_frequency);
-  } else {
-    Radio.set_frequency(88.9);  
-  }
-   
+  Radio.init();    
+  Radio.set_frequency(88.9);  
   digitalWrite(ledPin,HIGH);
 }
 
@@ -66,7 +36,6 @@ void loop() {
     current_freq =  floor (Radio.frequency_available (buf) / 100000 + .5) / 10;
     if (current_freq != stored_frequency && current_time - last_written > 10000 && search_mode == 0) {
       stored_frequency = current_freq;
-      store_frequency(stored_frequency);
       last_written = current_time;
     }
   }
