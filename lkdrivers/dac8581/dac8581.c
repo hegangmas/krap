@@ -2,8 +2,6 @@
  * 16-BIT, HIGH-SPEED, LOW-NOISE, VOLTAGE OUTPUT 
  * DIGITAL-TO-ANALOG CONVERTER
  *
- * Copyright 2013 Instrumentation technologies d.d.
- *
  * Licensed under the GPL-2 or later.
  *
  */
@@ -145,6 +143,6 @@ static __exit void dac8581_exit(void)
 }
 module_exit( dac8581_exit);
 
-MODULE_AUTHOR("Uros Golob <uros.golob@i-tech.si>");
+MODULE_AUTHOR("Uros Golob <uros@golob.mobi>");
 MODULE_DESCRIPTION("dac8581" "16bit digital to analog converter(hs,ln)");
 MODULE_LICENSE("GPL v2");
