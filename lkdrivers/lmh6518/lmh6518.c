@@ -1,8 +1,6 @@
 /*
  * LMH6518 900 MHz, Digitally Controlled, Variable Gain Amplifier
  *
- * Copyright 2013 Instrumentation technologies d.d.
- *
  * Licensed under the GPL-2 or later.
  *
  */
@@ -384,6 +382,6 @@ static __exit void lmh6518_exit(void)
 }
 module_exit( lmh6518_exit);
 
-MODULE_AUTHOR("Uros Golob <uros.golob@i-tech.si>");
+MODULE_AUTHOR("Uros Golob <uros@golob.mobi>");
 MODULE_DESCRIPTION("TI LMH6518" "900 MHz, Digitally Controlled, Variable Gain Amplifier");
 MODULE_LICENSE("GPL v2");
